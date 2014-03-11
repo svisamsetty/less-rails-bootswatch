@@ -15,7 +15,7 @@ group :assets do
   gem 'therubyracer'
   gem 'less-rails'
   gem 'less-rails-bootstrap'
-  gem 'less-rails-bootswatch'
+  gem 'less-rails-bootswatch', '~> 0.3.5', :git=> 'https://github.com/bhaskarkotu/less-rails-bootswatch.git'
 end
 ```
 
